@@ -1,0 +1,129 @@
+
+.emoji{
+  width: 800px;
+  height: 160px;
+  top: 100px;
+  left: 5%;
+  display: block;
+  position: absolute;
+  background: url('../img/Frame 6.png');
+}
+
+.emojimouth1 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 5%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 1.png');
+  animation: emojimouth 1s steps(1) infinite;
+}
+
+.emojieyes1 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 5%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 1.png');
+  animation: emojieyes 1s steps(1) infinite;
+}
+
+.emojimouth2 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 16.2%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 2.png');
+  animation: emojimouth 1s steps(1) infinite;
+}
+
+.emojieyes2 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 16%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 2.png');
+  animation: emojieyes 1s steps(1) infinite;
+}
+
+.emojimouth3 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 27%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 3.png');
+  animation: emojimouth 1s steps(1) infinite;
+}
+
+.emojieyes3 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 27%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 3.png');
+  animation: emojieyes 1s steps(1) infinite;
+}
+
+.emojimouth4 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 38.1%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 4.png');
+  animation: emojimouth 1s steps(1) infinite;
+}
+
+.emojieyes4 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 38.1%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 4.png');
+  animation: emojieyes 1s steps(1) infinite;
+}
+
+.emojieyes5 {
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 49.2%;
+  position: absolute;
+  display: block;
+  background: url('../img/Frame 5.png');
+  animation: emojieyess 2s steps(1) infinite;
+}
+
+@keyframes emojimouth {
+  0%{background-position: -160px top;}
+  35%{ background-position: -320px top;}
+  70%{ background-position: -480px top;}
+}
+
+@keyframes emojieyes {
+  0%{background-position: -640px top;}
+  35%{ background-position: -800px top;}
+  70%{ background-position: -960px top;}
+}
+
+@keyframes emojieyess {
+  15%{background-position: -160px top;}
+  30%{ background-position: -320px top;}
+  45%{ background-position: -480px top;}
+  60%{background-position: -640px top;}
+  75%{ background-position: -800px top;}
+}
